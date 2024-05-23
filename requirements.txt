@@ -1,0 +1,6 @@
+Flask
+joblib
+SQLAlchemy
+Flask-SQLAlchemy
+scikit-learn
+gunicorn
