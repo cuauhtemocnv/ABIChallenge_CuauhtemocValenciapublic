@@ -1,5 +1,5 @@
 import unittest
-from your_flask_app import app, db, Prediction  # Replace 'your_flask_app' with the actual name of your Flask app module
+from app import app, db, Prediction  # Replace 'your_flask_app' with the actual name of your Flask app module
 
 class FlaskTestCase(unittest.TestCase):
 
