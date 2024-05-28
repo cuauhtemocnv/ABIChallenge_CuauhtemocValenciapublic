@@ -135,6 +135,20 @@ Accepts POST requests with a batch of input data and returns a list of survival 
 2. **Access the API**:
     The API will be available at `http://0.0.0.0:5000`.
 
+## Test the API
+
+
+**Single prediction using curl**:
+```sh
+curl -X POST http://localhost:5000/predict_batch -H "Content-Type: application/json" -d '{"inputs": [[3, 0, 0, 0,0,0,0,0],[3, 0, 0, 0,0,0,0,0]]}'
+```
+
+**batch prediction using curl**:
+```sh
+curl -X POST http://localhost:5000/predict_batch -H "Content-Type: application/json" -d '{"inputs": [[3, 0, 0, 0,0,0,0,0],[3, 0, 0, 0,0,0,0,0]]}'
+ ```
+
+
 ## Detailed Code Description
 
 ### app.py
